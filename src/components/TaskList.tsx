@@ -16,7 +16,7 @@ export function TaskList() {
 
   function handleCreateNewTask() {
     if (!newTaskTitle) {
-      return 'Precisa digitar um titulo';
+      return alert('Digite um título');
     }
 
     const newTask = {
